@@ -7,8 +7,8 @@
     <ProjectGuid>{FE4E8345-F9E4-4C3A-B4EF-29AB828ACCBF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Model</RootNamespace>
-    <AssemblyName>Model</AssemblyName>
+    <RootNamespace>Models</RootNamespace>
+    <AssemblyName>Models</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -42,6 +42,7 @@
     <Compile Include="DefensiveDiceFace.cs" />
     <Compile Include="OffensiveDiceFace.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RollResultViewModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
